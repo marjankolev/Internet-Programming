@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+	<meta charset="UTF-8">
+	<title>Лаптопи</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="js/cookie.js"></script>  
+</head>
+<body>
+  <div class="proizvodi_lista"></div>
+	<header>
+		<img src="sliki/banner.png" alt="banner">
+		<nav>
+			<ul>
+				<li><a href="index.html">Почетна</a></li>
+		        <li class="selektirano" id="elektronika"><a href="laptopi.html">Електроника</a></li>
+		        <li><a href="katalog.html">Каталог</a></li>
+		        <li><a href="wishlist.html">Wishlist</a></li>
+		        <li><a href="ponuda.html">Специјална понуда</a></li>
+		        <li><a href="kontakt.html">Контакт</a></li>
+		        <li><a href="#">Кошничка <span></span></a></li>
+			</ul>
+		</nav>
+    <div class="clear"></div>
+    <div>
+      <nav id="sabmeni">
+        <ul>
+          <li class="sabmeni-selektirano"><a href="laptopi.html">Лаптопи</a></li>
+          <li><a href="tableti.html">Таблети</a></li>
+          <li><a href="mobilni.html">Мобилни телефони</a></li>
+          <li><a href="kameri.html">Камери</a></li>
+          <li><a href="zvucnici.html">Звучници</a></li>
+        </ul>
+      </nav>
+    </div>
+	</header>
+  <div class="clear"></div>
+	<div class="sodrzina">
+      <span class="popup">Додадено во кошничка</span>
+      <h2>Лаптопи</h2>
+      <hr/>
+			<article>
+				<header>Apple <button onclick='setCookie("1laptop","Apple",1)'>+ wishlist</button></header>
+				<img src="sliki/laptop1.jpg" alt="slika" width="240" height="240">
+				<footer>
+					<button onclick="window.location.href = 'naracaj.html'">Нарачи</button>
+					<button>Додај во кошничка</button>
+				</footer>
+			</article>
+			<article>
+				<header>Asus <button onclick='setCookie("2laptop","Asus",1)'>+ wishlist</button></header>
+				<img src="sliki/laptop2.jpg" alt="slika" width="240" height="240">
+				<footer>
+					<button onclick="window.location.href = 'naracaj.html'">Нарачи</button>
+					<button>Додај во кошничка</button>
+				</footer>
+			</article>
+			<article>
+				<header>HP <button onclick='setCookie("3laptop","HP",1)'>+ wishlist</button></header>
+				<img src="sliki/laptop3.jpg" alt="slika" width="240" height="240">
+				<footer>
+					<button onclick="window.location.href = 'naracaj.html'">Нарачи</button>
+					<button>Додај во кошничка</button>
+				</footer>
+			</article>
+			<article>
+				<header>Lenovo <button onclick='setCookie("4laptop","Lenovo",1)'>+ wishlist</button></header>
+				<img src="sliki/laptop4.jpg" alt="slika" width="240" height="240">
+				<footer>
+					<button onclick="window.location.href = 'naracaj.html'">Нарачи</button>
+					<button>Додај во кошничка</button>
+				</footer>
+			</article>
+			<article>
+				<header>Dell <button onclick='setCookie("5laptop","Dell",1)'>+ wishlist</button></header>
+				<img src="sliki/laptop5.jpg" alt="slika" width="240" height="240">
+				<footer>
+					<button onclick="window.location.href = 'naracaj.html'">Нарачи</button>
+					<button>Додај во кошничка</button>
+				</footer>
+			</article>
+			<article>
+				<header>Apple iMac <button onclick='setCookie("6laptop","Apple iMac",1)'>+ wishlist</button></header>
+				<img src="sliki/laptop6.jpg" alt="slika" width="240" height="240">
+				<footer>
+					<button onclick="window.location.href = 'naracaj.html'">Нарачи</button>
+					<button>Додај во кошничка</button>
+				</footer>
+			</article>
+			<article>
+				<header>Apple iMac 2<button onclick='setCookie("7laptop","Apple iMac 2",1)'>+ wishlist</button></header>
+				<img src="sliki/laptop7.jpg" alt="slika" width="240" height="240">
+				<footer>
+					<button onclick="window.location.href = 'naracaj.html'">Нарачи</button>
+					<button>Додај во кошничка</button>
+				</footer>
+			</article>
+			<article>
+				<header>Acer <button onclick='setCookie("8laptop","Acer",1)'>+ wishlist</button></header>
+				<img src="sliki/laptop8.jpg" alt="slika" width="240" height="240">
+				<footer>
+					<button onclick="window.location.href = 'naracaj.html'">Нарачи</button>
+					<button>Додај во кошничка</button>
+				</footer>
+			</article>
+		</div>
+  <div class="clear"></div>
+	<footer>
+    <p>&copy; 2015, Интернет програмирање семинарска</p>
+  </footer>
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/kosnicka.js"></script>
+</body>
+</html>

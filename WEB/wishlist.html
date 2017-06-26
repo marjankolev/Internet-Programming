@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+	<meta charset="UTF-8">
+	<title>Wishlist</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="js/cookie.js"></script>
+</head>
+<body onload="getItems();">
+	<header>
+    <img src="sliki/banner.png" alt="banner">
+    <nav>
+      <ul>
+        <li><a href="index.html">Почетна</a></li>
+        <li><a href="laptopi.html">Електроника</a></li>
+        <li><a href="katalog.html">Каталог</a></li>
+        <li class="selektirano"><a href="wishlist.html">Wishlist</a></li>
+        <li><a href="ponuda.html">Специјална понуда</a></li>
+        <li><a href="kontakt.html">Контакт</a></li>
+        <li><a href="#">Кошничка <span></span></a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="clear"></div>
+  <div class="sodrzina">
+      <span class="popup">Додадено во кошничка</span>
+      <h1>Wishlist</h1>
+      <span>Со клик на производ, се брише од листата</span>
+      <div>
+        <ul id="lista"></ul>
+      </div>
+      <div id="kopce"></div>
+  </div>
+  <footer>
+    <p>&copy; 2015, Интернет програмирање семинарска</p>
+  </footer>
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/kosnicka.js"></script>
+  <script src="js/wishlista.js"></script>
+</body>
+</html>

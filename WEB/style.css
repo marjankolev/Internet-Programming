@@ -1,0 +1,335 @@
+.clear{
+	clear: both;
+}
+
+body{
+	margin:0;
+	padding: 0;
+	font-family: "Verdana", "Tahoma", sans-serif;
+}
+
+header img{
+	width: 100%;
+	height: 400px;
+}
+
+header nav:not(#sabmeni){
+	width: 100%;
+	height: 40px;
+	padding: 10px;
+	background-color: #A6DF60;
+	margin-top: -5px;
+}
+
+header nav:not(#sabmeni) ul{
+	list-style-type: none;
+	margin-left: 10%;
+}
+
+header nav:not(#sabmeni) ul li{
+	display: inline-block;
+	position: relative;
+	top:-26px;
+	min-width: 130px;
+	height: 20px;
+	padding: 20px;
+  cursor: pointer;
+}
+
+header nav:not(#sabmeni) ul li a{
+	text-decoration: none;
+	color:#000000;
+	font-size: 1.1em;
+	padding-left:20px;
+}
+
+header nav:not(#sabmeni) ul li:hover{
+	background-color: #77AF60;
+	border-bottom: 3px solid #0000ff;
+}
+
+#sabmeni{
+	width: 100%;
+	height: 10px;
+	padding: 10px;
+	background-color: #77AF60;
+	margin-top: 3px;
+}
+
+#sabmeni ul{
+	list-style-type: none;
+}
+
+#sabmeni ul li{
+	display: inline-block;
+	position: relative;
+	top:-30px;
+	min-width: 120px;
+	padding: 10px;
+	//background-color: red;
+}
+
+
+#sabmeni ul li:hover{
+	background-color: #336633;
+}
+
+#sabmeni ul li:hover a{
+	color: #ffffff;
+}
+
+#sabmeni ul li a{
+	color:#000000;
+	padding-left: 15px;
+}
+
+#sabmeni ul li a{
+	text-decoration: none;
+}
+
+.sabmeni-selektirano{
+	background-color: #336633;
+}
+
+.sabmeni-selektirano a{
+	color:#ffffff !important;
+}
+
+.sodrzina{
+	width: 80%;
+	margin-left:10%;
+	margin-right: 10%;
+	margin-top: 2%;
+	min-height: 500px;
+}
+
+.selektirano{
+	background-color: #77AF60;
+	border-bottom: 3px solid #0000ff;
+}
+
+#elektronika{
+	border-bottom: 3px solid #77AF60 !important;
+}
+
+.pole{
+	margin-top: 10px;
+}
+
+.sodrzina .kontakt form input[type='text']{
+	width: 20%;
+	height: 35px;
+	border: none;
+	background-color: #ddd;
+	padding-left:10px;
+}
+
+.sodrzina .kontakt form textarea{
+	border: none;
+	background-color: #ddd;
+	resize: none;
+	padding: 10px;
+}
+
+.sodrzina .kontakt form input[type='submit']{
+	border:none;
+	min-width: 120px;
+	height: 30px;
+	font-weight: bold;
+	background-color: #A6DF60;
+	cursor: pointer;
+}
+
+.sodrzina .kontakt form input[type='submit']:hover{
+	background-color: #77AF60;
+}
+
+.sodrzina article{
+	width: 20%;
+	background-color: #eee;
+	margin: 10px;
+	display: inline-block;
+	height: 325px;
+}
+
+.sodrzina article img{
+	margin-left:9%;
+}
+
+.sodrzina article header{
+	padding: 10px;
+	padding-left: 25%;
+	font-weight: bold;
+}
+
+.sodrzina article footer button, #kopce button, .naraci_se{
+	border: none;
+	min-width: 120px;
+	min-height: 30px;
+	padding: 5px;
+	margin-top: 5px;	
+	margin-left: 5px;	
+	cursor: pointer;
+}
+
+.sodrzina article footer button:first-child, .naraci_se{
+	background-color: #A10000;
+	color:#ffffff;
+}
+
+.sodrzina article footer button:first-child:hover, .naraci_se:hover{
+	background-color: #F10000;
+	color:#ffffff;
+}
+
+.sodrzina article footer button:last-child, #kopce button{
+	background-color: #77AF60;
+	color: #ffffff;
+}
+
+.sodrzina article footer button:last-child:hover, #kopce button:hover{
+	background-color: #A6DF60;
+	color:#000000;
+}
+
+.popup{
+  width: 100%;
+  height: 20px;
+  padding: 10px;
+  background-color: #0f0;
+  font-weight: bold;
+}
+
+.proizvodi_lista{
+  width:25%;
+}
+
+.proizvodi_lista p:nth-child(odd){
+  background-color: #A6DF60;
+}
+
+.proizvodi_lista p{
+  padding: 10px;
+}
+
+nav ul li a span{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #A10000;
+  padding: 10px;
+  top:12px;
+  left:140px;
+  padding-left: 15px;
+  color:#fff;
+}
+
+body > footer{
+	width: 100%;
+	background-color: #A6DF60;
+	height: 40px;
+}
+
+footer p{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 35%;
+}
+
+hr{
+  border: 1px solid #77AF60;
+}
+
+#greski{
+  width: 100%;
+  min-height: 30px;
+  padding: 10px;
+  padding-top: 20px;
+  padding-left: 25px;
+  background-color: #F10000;
+  color: #910000;
+  border: 3px solid #A10000;
+  font-weight: bold;
+  display: none;
+}
+
+.sodrzina article header button{
+  color:#000;
+  cursor: pointer;
+  border:none;
+  background-color: #77AF60;
+  float:right;
+  font-weight: bold;
+}
+
+.sodrzina article header button:hover{
+  background-color: #A6DF60;
+  color:#222;
+}
+
+#lista{
+  list-style-type:none;
+  width: 25%;
+}
+
+#lista li:nth-child(odd){
+  background-color: #A6DF60;
+}
+
+#lista li{
+  padding: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 1400px){
+	header nav:not(#sabmeni) ul{
+		list-style-type: none;
+		margin-left: 1%;
+	}
+
+	header nav:not(#sabmeni) ul li a{
+		text-decoration: none;
+		color:#000000;
+		font-size: 1.1em;
+		padding-left:10px;
+	}
+
+	header nav:not(#sabmeni) ul li{
+		display: inline-block;
+		position: relative;
+		top:-26px;
+		min-width: 120px;
+		height: 20px;
+		padding: 20px;
+	}
+
+	.sodrzina article{
+		width: 25%;
+		background-color: #eee;
+		margin: 10px;
+		display: inline-block;
+		height: 290px;
+	}
+
+	.sodrzina article img{
+		margin-left:9%;
+		width: 200px;
+		height: 200px;
+	}
+
+	.sodrzina article footer button{
+		border: none;
+		min-width: 100px;
+		min-height: 30px;
+		padding: 2px;
+		margin-top: 5px;	
+		margin-left: 5px;	
+	}
+
+  .sodrzina article header{
+    padding: 10px;
+    padding-left: 15%;
+    font-weight: bold;
+  }
+}
+

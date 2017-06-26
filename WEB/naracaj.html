@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+	<meta charset="UTF-8">
+	<title>Нарачка</title>
+  <link rel="stylesheet" href="style.css">
+  <script lang="JavaScript" src="js/naracaj.js"></script>
+</head>
+<body>
+	<header>
+    <img src="sliki/banner.png" alt="banner">
+    <nav>
+      <ul>
+        <li><a href="index.html">Почетна</a></li>
+        <li><a href="laptopi.html">Електроника</a></li>
+        <li><a href="katalog.html">Каталог</a></li>
+        <li><a href="wishlist.html">Wishlist</a></li>
+        <li><a href="ponuda.html">Специјална понуда</a></li>
+        <li><a href="kontakt.html">Контакт</a></li>
+        <li><a href="#">Кошничка <span></span></a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="clear"></div>
+  <div class="sodrzina">
+      <span class="popup">Додадено во кошничка</span>
+      <div id="greski"></div>
+      <h1>Нарачка</h1>
+      <div class="kontakt">
+        <form onsubmit="return naracaj();" method="post">
+          <label for="">Цена: 3500 денари</label>
+          <div class="pole">
+              <input type="text" name="ime" placeholder="Име и презиме" id="ime">
+          </div>
+          <div class="pole">
+            <input type="text" name="email" placeholder="Емаил" id="email">
+          </div>
+          <div class="pole">
+            <input type="text" name="tel" placeholder="Телефонски број (07x-xxx-xxx)" id="tel">
+          </div>
+          <div class="pole">
+            <textarea cols="60" rows="10" name="adresa" placeholder="Адреса" id="adresa"></textarea>
+          </div>
+          <div class="pole">
+            <input type="submit" value="Нарачај" id="isprati">
+          </div>
+          </form>
+      </div>
+  </div>
+  <footer>
+    <p>&copy; 2015, Интернет програмирање семинарска</p>
+  </footer>
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/kosnicka.js"></script>
+</body>
+</html>
